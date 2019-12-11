@@ -1,0 +1,3 @@
+[submodule "bcaller/deps/HighFive"]
+	path = bcaller/deps/HighFive
+	url = https://github.com/BlueBrain/HighFive.git
