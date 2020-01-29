@@ -200,7 +200,7 @@ $p(D | \theta, M, X, B_1 \rightarrow B_2)$ are modified according to expections 
     \item For homozygous alternate, we expect all the calls to be alternate.
 \end{itemize}
 These assumptions are easy to encode using the generalization of this method. Instead of using a beta prior and a binomial likelihood, we extend into the multivariate case by placing a Dirichlet distribution on the
-prior with $K = 4$ categories (one for each of the four bases) and place a categorical distribution on the likelihood. These are conjugate, and produce a Dirichlet-distributed posterior, giving similar speed and ease
+prior with $K = 4$ categories (one for each of the four cases) and place a categorical distribution on the likelihood. These are conjugate, and produce a Dirichlet-distributed posterior, giving similar speed and ease
 of computation that is necessary for this task.
 
 \par Another possible improvement to the caller could be to capture less granular information about the base substitutions; for example, instead of using single bases, base triplets could be captured to account
