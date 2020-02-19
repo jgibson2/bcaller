@@ -3,4 +3,4 @@
 	url = https://github.com/BlueBrain/HighFive.git
 [submodule "bcaller/deps/vcflib"]
 	path = bcaller/deps/vcflib
-	url = https://docs.gitlab.com/ee/university/training/topics/unstage.html
+	url = https://github.com/vcflib/vcflib.git
